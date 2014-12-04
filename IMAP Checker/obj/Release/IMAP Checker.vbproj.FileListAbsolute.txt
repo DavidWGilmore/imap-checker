@@ -1,0 +1,15 @@
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\IMAP_Checker.exe.config
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\IMAP_Checker.exe
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\IMAP_Checker.pdb
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\IMAP_Checker.xml
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\ActiveUp.Net.Common.dll
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\ActiveUp.Net.Imap4.dll
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\ActiveUp.Net.Dns.dll
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\ActiveUp.Net.Common.xml
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\ActiveUp.Net.Imap4.xml
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\bin\Release\ActiveUp.Net.Dns.xml
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP_Checker.Resources.resources
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP Checker.vbproj.GenerateResource.Cache
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP_Checker.exe
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP_Checker.xml
+c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP_Checker.pdb
