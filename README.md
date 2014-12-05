@@ -16,3 +16,6 @@ Open a command promot in the directory you extracted the files to and execute 'i
 
 If you find a bug (highly likely) or have problems making the application work, please use the GitHub Issues system to submit an issue. For general help or discussion, please use the imap-checker@googlegroups.com mailing list.
 
+## Project Roadmap
+
+To see features that are scheduled to be added, please see the Project roadmap here: http://github.com/davidwgilmore/imap-checker/wiki/Roadmap
