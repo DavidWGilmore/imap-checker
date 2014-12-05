@@ -56,7 +56,7 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("bsc-exchange.domain2.local")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("your.imap.server")>  _
         Public ReadOnly Property IMAP_server() As String
             Get
                 Return CType(Me("IMAP_server"),String)
@@ -65,7 +65,7 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("inbound")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("username")>  _
         Public ReadOnly Property IMAP_user() As String
             Get
                 Return CType(Me("IMAP_user"),String)
@@ -74,7 +74,7 @@ Namespace My
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("inbound")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("password")>  _
         Public ReadOnly Property IMAP_password() As String
             Get
                 Return CType(Me("IMAP_password"),String)
@@ -84,9 +84,9 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public ReadOnly Property use_ssl() As Boolean
+        Public ReadOnly Property use_ssl() As String
             Get
-                Return CType(Me("use_ssl"),Boolean)
+                Return CType(Me("use_ssl"),String)
             End Get
         End Property
         
@@ -102,18 +102,18 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("False")>  _
-        Public ReadOnly Property delete_msg() As Boolean
+        Public ReadOnly Property delete_msg() As String
             Get
-                Return CType(Me("delete_msg"),Boolean)
+                Return CType(Me("delete_msg"),String)
             End Get
         End Property
         
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("0")>  _
-        Public ReadOnly Property debug_level() As Integer
+        Public ReadOnly Property debug_level() As String
             Get
-                Return CType(Me("debug_level"),Integer)
+                Return CType(Me("debug_level"),String)
             End Get
         End Property
         

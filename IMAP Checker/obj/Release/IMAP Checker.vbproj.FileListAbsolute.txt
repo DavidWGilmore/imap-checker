@@ -13,3 +13,4 @@ c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP Checker.vbpro
 c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP_Checker.exe
 c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP_Checker.xml
 c:\users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP_Checker.pdb
+C:\Users\dgilmore\devel\IMAP Checker\IMAP Checker\obj\Release\IMAP Checker.vbprojResolveAssemblyReference.cache

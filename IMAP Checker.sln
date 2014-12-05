@@ -5,6 +5,36 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IMAP Checker", "IMAP Checker\IMAP Checker.vbproj", "{CFDE3610-B220-42DA-A193-3A23A4A12AAE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C5220809-6490-47DF-AF10-3DC69800EBDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{A39CFAEA-79C3-4915-B5C0-59B659ACFA47}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\ActiveUp.Net.Common.dll = ..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\ActiveUp.Net.Common.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Common.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Common.xml
+		..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\ActiveUp.Net.Dns.dll = ..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\ActiveUp.Net.Dns.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Dns.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Dns.xml
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Groupware.dll = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Groupware.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Groupware.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Groupware.xml
+		..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\ActiveUp.Net.Imap4.dll = ..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\ActiveUp.Net.Imap4.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Imap4.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Imap4.xml
+		..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\ActiveUp.Net.Mail.dll = ..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\ActiveUp.Net.Mail.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Mail.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Mail.xml
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Nntp.dll = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Nntp.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Nntp.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Nntp.xml
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.OpenPGP.dll = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.OpenPGP.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.OpenPGP.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.OpenPGP.xml
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Pop3.dll = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Pop3.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Pop3.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Pop3.xml
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Smtp.dll = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Smtp.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Smtp.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.Smtp.xml
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.WhoIs.dll = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.WhoIs.dll
+		..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.WhoIs.xml = ..\Third-Party Assemblies\MailSystem.Net\Release\ActiveUp.Net.WhoIs.xml
+		..\Third-Party Assemblies\MailSystem.Net\Release\COPYRIGHT.txt = ..\Third-Party Assemblies\MailSystem.Net\Release\COPYRIGHT.txt
+		..\Third-Party Assemblies\MailSystem.Net\Release\Documentation.chm = ..\Third-Party Assemblies\MailSystem.Net\Release\Documentation.chm
+		..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\LICENSE.txt = ..\..\..\..\temp\ActiveUp.MailSystem_May2013_Binaries\Release\LICENSE.txt
+		..\Third-Party Assemblies\MailSystem.Net\Release\LICENSE.txt = ..\Third-Party Assemblies\MailSystem.Net\Release\LICENSE.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +48,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFDE3610-B220-42DA-A193-3A23A4A12AAE} = {C5220809-6490-47DF-AF10-3DC69800EBDE}
 	EndGlobalSection
 EndGlobal
